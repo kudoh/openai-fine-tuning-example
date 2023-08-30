@@ -1,0 +1,19 @@
+{
+  "name": "openai-fine-tuning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "train": "ts-node train.ts train",
+    "list-jobs": "ts-node train.ts listJobs",
+    "chat": "ts-node train.ts chat"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
