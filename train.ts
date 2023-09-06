@@ -77,6 +77,9 @@ if (!command) {
 }
 let fn: (...args: any[]) => Promise<void>;
 switch (command) {
+  case 'train':
+    fn = train;
+    break;
   case 'listJobs':
     fn = listJobs;
     break;
