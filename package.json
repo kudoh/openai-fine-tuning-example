@@ -6,7 +6,9 @@
   "scripts": {
     "train": "ts-node train.ts train",
     "list-jobs": "ts-node train.ts listJobs",
-    "chat": "ts-node train.ts chat"
+    "chat": "ts-node train.ts chat",
+    "get-file": "ts-node train.ts getFile",
+    "list-event": "ts-node train.ts listJobEvent"
   },
   "keywords": [],
   "author": "",
